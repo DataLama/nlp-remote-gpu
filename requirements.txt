@@ -1,0 +1,17 @@
+torch==1.8.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision
+torchaudio
+pytorch_lightning
+tensorflow==2.3.1
+onnxruntime-tools
+onnxruntime-gpu==1.4.0
+onnx
+plotly
+ipywidgets>=7.5
+pandas
+cython
+emoji
+soynlp
+pybind11
+git+https://github.com/DataLama/custom-python-mecab-ko.git
+pyarrow
