@@ -1,7 +1,7 @@
 {
     "name": "nlp-remote-gpu",
     "build": { "dockerfile": "Dockerfile" },
-    "forwardPorts": [9030, 9031, 9032, 9033],
+    "appPort": ["9030:9030", "9031:9031", "9032:9032"],
     "settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"python.pythonPath": "/usr/local/bin/python",

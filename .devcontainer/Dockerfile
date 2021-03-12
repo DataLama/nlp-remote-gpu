@@ -56,6 +56,9 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && \
     update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1 && \
     update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1  
 
+# pytorch version
+RUN pip install torch==1.8.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
 # Install OpenJDK-8
 RUN apt-get update && \
     apt-get install -y openjdk-8-jdk && \
