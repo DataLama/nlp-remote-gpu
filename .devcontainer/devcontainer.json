@@ -1,10 +1,10 @@
 {
     "name": "nlp-remote-gpu",
     "build": { "dockerfile": "Dockerfile" },
-    "appPort": ["9030:9030", "9031:9031", "9032:9032"],
+    "appPort": ["9035:9035", "9036:9036", "9037:9037"],
     "settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-		"python.pythonPath": "/usr/local/bin/python",
+		"terminal.integrated.shell.linux": "/bin/zsh",
+		"python.pythonPath": "/usr/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
 		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
